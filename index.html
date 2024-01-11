@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREINO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header-->
+    <header><h1>Meu Treino</h1></header>
+
+    <!--MAIN-->
+    <div class="modal" id="modal" onclick="hideModal()">
+        <div class="modal-content" id="modal-content"></div>
+    </div>
+    <section class="main">
+       
+        <div class="container">
+            <img class="homem "src="./assets/homem.png" alt="homem">
+        </div>
+
+        <div class="container">
+            <div class="container__center">
+                Selecione o dia desejado:
+                <div class="day__container">
+                    <div class="day" onclick="treinoA()">A</div>
+                    <div class="day" onclick="treinoB()">B</div>
+                    <div class="day" onclick="treinoC()">C</div>
+                    <div class="day" onclick="treinoD()">D</div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container__right">
+                <p class="frase">DISCIPLINA:<br>FAZER O QUE<br>TEM QUE SER<br>FEITO ATÉ<br>MESMO<br>QUANDO<br>VOCÊ<br>NÃO QUER.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--footer-->
+    <footer>&copy; Renan Peres</footer>
+    <script src="script.js"></script>
+</body>
+</html>
